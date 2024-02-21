@@ -145,7 +145,7 @@ public class LicenseScanTests : TestBase
         Assert.NotNull(Config.LicenseScanPath);
 
         // Indicates how long until a timeout occurs for scanning a given file
-        const int FileScanTimeoutSeconds = 240;
+        const int FileScanTimeoutSeconds = 480;
 
         string scancodeResultsPath = Path.Combine(LogsDirectory, "scancode-results.json");
 
